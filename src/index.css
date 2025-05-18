@@ -1,0 +1,92 @@
+.journal-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.toggle-form-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.entry-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.entry-form div {
+  margin-bottom: 15px;
+}
+
+.entry-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.entry-form input,
+.entry-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.entry-form textarea {
+  height: 100px;
+}
+
+.entry-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.entries-list {
+  display: grid;
+  gap: 20px;
+}
+
+.entry {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.entry.important {
+  border-left: 4px solid #ff9800;
+  background-color: #fff8e1;
+}
+
+.entry h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.important-btn {
+  background: none;
+  border: none;
+  color: #ff9800;
+  cursor: pointer;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
