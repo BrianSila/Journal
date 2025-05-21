@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const API_URL = "https://jsonplaceholder.typicode.com/posts";
 
-function JournalApp() {
+function App() {
   const [entries, setEntries] = useState([]);
   const [loading, setLoading] = useState(true);
   const [showForm, setShowForm] = useState(false);
@@ -151,4 +151,4 @@ function JournalApp() {
   );
 }
 
-export default JournalApp;
+export default App;
